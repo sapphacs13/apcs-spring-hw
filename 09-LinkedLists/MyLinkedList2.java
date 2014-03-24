@@ -1,8 +1,8 @@
-public class MyLinkedList{
+public class MyLinkedList2{
     private Node head;
     private int size;
     
-    public MyLinkedList(){
+    public MyLinkedList2(){
 	head = new Node("");
 	size = 0;
     }
