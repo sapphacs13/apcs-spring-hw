@@ -76,8 +76,16 @@ public class MyLinkedList{
     }
     
     public int find(String s){
-	//return the location of the first String in the lit with value s
-	//exception on error
+	Node temp = head;
+		int r = -1;
+		for (int index = 0; index < this.size(); index++) {
+			if (temp.getData() == s) {
+				r = index;
+				break;
+			}
+			temp = temp.getNext();
+		}
+		return r;
     }
     
     public int length(){
