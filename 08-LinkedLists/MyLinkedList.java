@@ -1,5 +1,6 @@
 public class MyLinkedList{
     private Node head;
+    private int size;
     
     public MyLinkedList(){
 	head = null;
@@ -9,6 +10,7 @@ public class MyLinkedList{
 	Node temp = new Node(s);
 	temp.setNext(head);//you must do this first
 	head = temp; //you must do this second
+	size ++;
     }
      
     public String toString(){
