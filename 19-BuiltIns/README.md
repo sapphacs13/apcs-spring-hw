@@ -11,13 +11,13 @@ Differences Between TreeMap and TreeSet:
   
 Differences between HashMap and HashSet: Similar to TreeMap/TreeSet
 
-  HashMap implements the Map interface while HashSet implements the Set interface
+    HashMap implements the Map interface while HashSet implements the Set interface
+     
+    HashMap Stores data in form of  key value pair while only Objects are stored in the HashSet
   
-  HashMap Stores data in form of  key value pair while only Objects are stored in the HashSet
-  
-  In HashMap, the hash value is calculated through the key; in the HashSet, the hash value is calculated through the Object
-  
-  Duplicate keys are allowed in HashMap, but no duplicates are allowed in HashSet
+    In HashMap, the hash value is calculated through the key; in the HashSet, the hash value is calculated through the Object
+    
+    Duplicate keys are allowed in HashMap, but no duplicates are allowed in HashSet
   
   
   
