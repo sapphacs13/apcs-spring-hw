@@ -1,12 +1,12 @@
 Differences Between TreeMap and TreeSet:
 
-  TreeMap implements the Map interface and TreeSet implements the Set interface
+    TreeMap implements the Map interface and TreeSet implements the Set interface
   
-  Similarly, TreeSet implements NavigableSet and TreeMap implements implements NavigableMap
+    Similarly, TreeSet implements NavigableSet and TreeMap implements implements NavigableMap
 
-  TreeSet stores one Object (Objects in sorted order) while TreeMap stores a key and a value (keys are in sorted order)
+    TreeSet stores one Object (Objects in sorted order) while TreeMap stores a key and a value (keys are in sorted order)
   
-  Duplicates are allowed in TreeMap (for keys), but not in TreeSet
+    Duplicates are allowed in TreeMap (for keys), but not in TreeSet
   
   
 Differences between HashMap and HashSet: Similar to TreeMap/TreeSet
