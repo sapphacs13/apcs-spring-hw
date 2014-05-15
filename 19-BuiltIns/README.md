@@ -40,7 +40,9 @@ Differences between Hash and Tree:
       
 
 Internally:
+
   HashMap is an array where each slot is a linked list of elements; every slot corresponds to a hashvalue
+  
   TreeMap uses a red-black tree; the details of the tree are not exposed and there is no way to expose its structure;
       the purpose of using it is to get O(log n) performance for search and insert
       
