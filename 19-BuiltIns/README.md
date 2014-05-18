@@ -47,8 +47,4 @@ Internally:
     TreeMap uses a red-black tree; the details of the tree are not exposed and there is no way to expose its structure;
       the purpose of using it is to get O(log n) performance for search and insert
       
-Write code to try to do a speed comparison between HasMaps and TreeMaps. Report your findings.
 
-Java's built in heap is called...
-
-The rest is in other .java files
